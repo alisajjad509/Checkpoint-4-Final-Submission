@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        DarkSpace
+    </title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <script src="script.js"></script>
+</head>
+<body class="shop-page">
+
+<header>
+    <a href="index.html" class="logo">
+    <img src="darklogo.png" alt="darkspacelogo">
+        <span class="logo-text">DS</span>
+</a>
+<h1 class="glow-title">DarkSpace Intergalactic Goods LLC</h1>
+<div class="header-right">
+    <a class="cart-button" href="cart.html">CART</a>
+     <a class="login-link" href="login.html">login</a>
+     <button class="toggleBt" id="bgToggle" onclick="toggleBackground()">Theme Toggle</button>
+</div>
+
+</header>
+<nav>
+    <a href="index.html" class="darkspace">Featured</a>
+     <a href="exoticminerals.html" class="exoticminerals">Exotic Minerals</a>
+    <a href="weapons.html" class="weapons">Weapons</a>
+    <a href="biological.html" class="biological">Biological</a>
+    <a href="gearandwellness.html" class="gearandwellness">Gear & Wellness</a>
+    <a href="FAQ.html" class="faq">FAQ</a>
+</nav>
+<body>
+    <div class="Products">
+<div class="Product-card">
+<div class="Product-image">
+<img src="bloodstone.png" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">8772 E</div>
+<button class="add-to-cart" data-price="8772"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">BLOODSTONE a form of rock like material with abrasive sponge like 
+    material growing around it. High in iron content as well as calcium. This material's outter
+    surfaces soften at hotter temperatures.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/Flouracide.png" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">3321 E</div>
+<button class="add-to-cart" data-price="3321"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">FLOURACIDE is a radioactive element with carbon thorns protecting its shell.
+    Materical can be used for energy if proper equipments and facility is in place. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/Nanite.png" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">8900 E</div>
+<button class="add-to-cart" data-price="8900"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">NANITE is a manufactured element that is very unstable. Usually causes mutations upon 
+    contact with any form of organic life.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="haark.png" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">2005 E</div>
+<button class="add-to-cart" data-price="2005"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">HAARK is a stone like mineral with a purple inside when cracked open. This 
+    mineral emits constant electricity which can pulsate outwards when mineral is split open.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="rhuuv.webp" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">6997 E</div>
+<button class="add-to-cart" data-price="6997"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">RHUUV is a liquid mineral that conjoins together in this oblong form shape. 
+    similar properties to mercury while being multiple times more poisionous. This element remains in liquid
+    form even in extreme temperatures.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="niodites.webp" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">912117 E</div>
+<button class="add-to-cart" data-price="12117"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">NIODITES are an extremely rare element found in only the most extreme 
+    regions of deep space. This material is substantially harder than diamond while weighing nearly 3 
+    times more. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/Gravine.png" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">4388 E</div>
+<button class="add-to-cart" data-price="4388"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">GRAVINE is a rarer element found in the mantle of certain rouge planets. 
+    This materical shifts between solid and liquid states at random. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="robacium.webp" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">5700 E</div>
+<button class="add-to-cart" data-price="5700"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">ROBACIUM is a very dense mineral but surpisingly light for its density. It 
+    shares similarities to bismuth but differ greatly in heat absorbtion. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="fragnite.png" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">6071 E</div>
+<button class="add-to-cart" data-price="6071"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">FRAGNITE is a rare element primarily found in regions of eliptical galaxy B17-A. Jagged exterior can cause 
+    serious injury. Fragnite is known to have a magretic push that repels in all directions. Hardness resembles that of tungsten.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="loaf.webp" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">1 E</div>
+<button class="add-to-cart" data-price="1"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">BREAD. <br> 
+    It's bread.
+</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        DarkSpace
+    </title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <script src="script.js"></script>
+</head>
+<body class="shop-page">
+
+<header>
+    
+    <a href="index.html" class="logo">
+        <img src="darklogo.png" alt="darkspacelogo">
+        <span class="logo-text">DS</span>
+       </a> 
+
+<h1 class="glow-title">DarkSpace Intergalactic Goods LLC</h1>
+<div class="header-right">
+    <a class="cart-button" href="cart.html">CART</a>
+     <a class="login-link" href="login.html">login</a>
+     <button class="toggleBt" id="bgToggle" onclick="toggleBackground()">Theme Toggle</button>
+</div>
+</header>
+<nav>
+    <a href="index.html" class="darkspace">Featured</a>
+    <a href="exoticminerals.html" class="exoticminerals">Exotic Minerals</a>
+    <a href="weapons.html" class="weapons">Weapons</a>
+    <a href="biological.html" class="biological">Biological</a>
+    <a href="gearandwellness.html" class="gearandwellness">Gear & Wellness</a>
+    <a href="FAQ.html" class="faq">FAQ</a>
+</nav>
+<body>
+    <div class="Products">
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/Panther.jpg" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">8772 E</div>
+<button class="add-to-cart" data-price="8772"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">PANTHER is a common light machine gun. Lightweight for size and model offering 
+    confortability while firing. Comes with red dot scope or additional 2 magazines. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/vect.avif" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+
+<div class="product-price">5321 E</div>
+<button class="add-to-cart" data-price="5321"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">VECTORE is a submachine gun with high fire rate with everage fps of 3200FPS.
+    Comes with 18 round pistol combo. Lightweight and durable, this is a modest loadout for your average
+    explorer. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/Garnaige.webp" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">8900 E</div>
+<button class="add-to-cart" data-price="8900"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">GARNAIGE is a high powered 6 shot revolver. For those who are not 
+    shy to spend a little more on ammunition to leave a bigger impact. Reliable source of protection 
+    against larger less friendly space critters. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/warpig.jpg" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">2005 E</div>
+<button class="add-to-cart" data-price="2005"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">WARPIG is a cheap Zeatherine shotgun style weapon. Prone to jam and parts are outsourced. It will get the job done.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/TK120.avif" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">6997 E</div>
+<button class="add-to-cart" data-price="6997"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">TK120 is a bullpup style assult rifle that can handle extensive abuse. Higher than average recoil for this model in perticular. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/P90.jpg" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">4117 E</div>
+<button class="add-to-cart" data-price="4117"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">P90 a famous weapon from planet Earth. Modest fire rate with modest impact.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/HARM.jpg" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">9388 E</div>
+<button class="add-to-cart" data-price="9388"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">HARM is a powerful energy weapon. Uses loaded anti-matter cell to fire built up single shot beams that can cause 
+    devistation to anything in its way. Cells are non rechargeable. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/RSV1.webp" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">12700 E</div>
+<button class="add-to-cart" data-price="12700"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">RSV1 is a charged energy sniper rifle comes with attached scope offering up to 120X magnification. Energy cell 
+    contains up to 5 shots. Cells are non rechargeable.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/CVV-2.jpg" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">6071 E</div>
+<button class="add-to-cart" data-price="6071"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">CVV-2 is a high powered long to mid range rifle that can be converted to a 
+    long range sniper rifle or left as a heavy assult rifle style weapon. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/AMACC.png" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">8008 E</div>
+<button class="add-to-cart" data-price="8008"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">AMACC is an assult rifle style weapon with a pump action underbarrel grenade 
+    launcher that can hold up to 3 +1 shells. 
+</p>
+</div>
+
+</body>
+</html>

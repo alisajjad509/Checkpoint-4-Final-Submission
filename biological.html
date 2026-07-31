@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        DarkSpace
+    </title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <script src="script.js"></script>
+</head>
+<body class="shop-page">
+
+<header>
+    <a href="index.html" class="logo">
+    <img src="darklogo.png" alt="darkspacelogo">
+        <span class="logo-text">DS</span>
+</a>
+<h1 class="glow-title">DarkSpace Intergalactic Goods LLC</h1>
+<div class="header-right">
+    <a class="cart-button" href="cart.html">CART</a>
+     <a class="login-link" href="login.html">login</a>
+     <button class="toggleBt" id="bgToggle" onclick="toggleBackground()">Theme Toggle</button>
+</div>
+</header>
+<nav>
+    <a href="index.html" class="darkspace">Featured</a>
+     <a href="exoticminerals.html" class="exoticminerals">Exotic Minerals</a>
+    <a href="weapons.html" class="weapons">Weapons</a>
+    <a href="biological.html" class="biological">Biological</a>
+    <a href="gearandwellness.html" class="gearandwellness">Gear & Wellness</a>
+    <a href="FAQ.html" class="faq" >FAQ</a>
+</nav>
+
+<body>
+    <div class="Products">
+<div class="Product-card">
+<div class="Product-image">
+<img src="bloodstone.png" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">8772 E</div>
+<button class="add-to-cart" data-price="8772"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">BLOODSTONE a form of rock like material with abrasive sponge like 
+    material growing around it. High in iron content as well as calcium. This material's outter
+    surfaces soften at hotter temperatures.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/Batonia.webp" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">3321 E</div>
+<button class="add-to-cart" data-price="3321"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">BATONIA are healing flowers that grow in complete darkness. Nutrients from plant 
+    are known to cure depression and anxiety while relaxing nerves and muscle tissue. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/Trapheline.webp" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">8900 E</div>
+<button class="add-to-cart" data-price="8900"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">TRAPHELINE also known as tenticle vines are exotic breed of invasive plants that are 
+    considered a delicacy in certain regions of space. Taste when cooked is said to be similar to that of squid meat 
+    mixed with mushroom. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/najgwa.webp" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">7005 E</div>
+<button class="add-to-cart" data-price="2005"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">NAJGWA trees take roughly 2-3 years after maturity to fully bloom. Well seeked
+    for their pink pedals which acts as a powerfull aphrodisiac. Pedals can be brewed into a tea or eaten whole.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/yinkjinn.png" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">6997 E</div>
+<button class="add-to-cart" data-price="6997"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">YINKJINN trees can grow many meters tall and wide taking almost 2 centuries 
+    to fully mature. Trees have no leaves or pedals but grow toxic berries that induce deliriousness that can 
+    last for many days.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/Webbing.jpg" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">4117 E</div>
+<button class="add-to-cart" data-price="4117"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">WEBBING tree live in humid areas with ample sun rays. Green sap is collected by many for healing properties. Used to 
+    create ointment that is said to be able to heal third degree burns when immediately applied. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/Phirus.jpg" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">4388 E</div>
+<button class="add-to-cart" data-price="4388"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">PHIRUS plants produce offspring quickly but life spans typically last for 8-12 months. Leaves are collected and crushed up into 
+    powder and used for high quality herbal spices. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/Reafes.jpg" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">5700 E</div>
+<button class="add-to-cart" data-price="5700"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">REAFES trees found in colder plantets usually farther away from their parent star. Trees are known to cool the surrounding area 
+    absorbing hot air and gasses and expelling cool breatheable oxygen. 
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/leashei.jpg" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">6071 E</div>
+<button class="add-to-cart" data-price="6071"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">LEASHEI are a biological vine form parisitic plant. Invasive species will
+    kill most other plant living near. Do not touch with bare skin.
+</p>
+</div>
+
+<div class="Product-card">
+<div class="Product-image">
+<img src="images/violily.webp" alt="mineral" style="max-width:100%; max-height:100%";>
+</div>
+<div class="product-price">1008 E</div>
+<button class="add-to-cart" data-price="1008"
+onclick="addToCart(this)">Add to Cart</button>
+<p class="product-description">VIOLILY are a beautiful cross breed between a flower and mushroom like plants. 
+    Known for their pleasant aroma, violilies are a wonder to keep around. Keep out of direct sunlight.
+</p>
+</div>
+
+</body>
+</html>
