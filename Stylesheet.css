@@ -381,8 +381,9 @@ img[alt="icon2"]{
     display: inline;
 }
 // Fix for mobile layout of website so anything larger than 550px doesn't get effected. 
-
+@media only screen and (max-width: 768px){}
 @media only screen and (max-width: 500px){
+    body { background-attachment: scroll; }
     .burger { display: flex;}
     nav {display:none; flex-direction:column;}
     nav.show {display:flex;}
