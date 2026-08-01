@@ -12,7 +12,7 @@ function clearCart() {
 function toggleBackground(){
     document.body.classList.toggle('alt-bg');
 }
-if(document.body.classList.contains('alt-bg')){
+if(document.body.classList('alt-bg')){
     localStorage.setItem('theme', 'alt-bg'); }else{
         localStorage.setItem('theme', 'default');
     }
